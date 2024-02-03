@@ -1,0 +1,98 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: grid;
+    place-items: center;
+    /* min-height: 100dvh; */
+}
+
+h1 {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+label,
+legend {
+    font-weight: 500;
+}
+
+input:focus {
+    outline: 1px solid #000000b2;
+}
+
+fieldset {
+    margin: .6rem 0;
+    border: 1px solid #0000005b;
+    border-radius: 3px;
+    padding: .5rem 0;
+}
+
+select {
+    padding: .3rem .5rem;
+    border: 1px solid #00000069;
+    border-radius: 3px;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.main-container {
+    background-color: #f0efef27;
+    border: 1px solid rgba(0, 0, 0, 0.171);
+    border-radius: 4px;
+    padding: 2.5rem;
+}
+
+#budget {
+    padding: 5px 10px;
+    width: 100%;
+    border: 1px solid #0000005b;
+    border-radius: 3px;
+}
+
+.input-container {
+    display: flex;
+}
+
+.controls {
+    margin: .6rem 0;
+    text-align: center;
+}
+
+.primary-btn {
+    all: unset;
+    padding: .4rem .5rem;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+button[type=submit] {
+    margin-bottom: .5rem;
+}
+
+.output {
+    text-align: center;
+    padding: .6rem;
+    border: 1px solid #0000006b;
+}
+
+.hide {
+    display: none;
+}
+
+.w-100 {
+    width: 100%;
+}
